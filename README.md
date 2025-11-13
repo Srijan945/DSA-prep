@@ -77,6 +77,6 @@ Week 6 — Mixed + Revision
 | Case clause | Create runtime columns based on conditions |
 | Join | Generate cumulative tables or combine related data via different join types |
 | Subquery | Extract a subset of data for further processing |
-| Limit / Offset / Fetch Next | Handle "top N" or paginated results |
+| Limit / Offset / Fetch Next | Handle "top N" or paginated results also, mostly used in single query result not with group by |
 | Window functions | rank(), dense_rank(), row_number(), etc. — apply calculations across a set of rows |
 | Aggregate functions used with Group By a lot | SUM(), MAX(), AVG(), etc. — compute cumulative/summary answers |

@@ -5,7 +5,7 @@
 | Topic | Problem | LC # | Status | Notes |
 |---|---|---:|:---:|---|
 | Sliding window | Longest Substring Without Repeating Characters | 3 | [x] Done | revisit O(n) template HashMap |
-| Sliding window | Minimum Window Substring | 76 | [ ] | |
+| Sliding window | Minimum Window Substring | 76 | [x] Done| O(n+m) solution Freq Array|
 | Sliding window | Sliding Window Maximum | 239 | [x] Done | use deque O(nlogn) |
 | Sliding window | Minimum Size Subarray Sum | 209 | [x] Done | two-pointer shrinking window O(n) |
 | Sliding window | Subarray Product Less Than K | 713 | [ ] | handle product and left pointer |
