@@ -11,12 +11,12 @@
 | Sliding window | Subarray Product Less Than K | 713 | [x] Done | handle product and left pointer |
 | Prefix / Suffix | Product of Array Except Self | 238 | [x] Done | Create prefix and suffix product array |
 | Prefix / Suffix | Subarray Sum Equals K | 560 | [x] Done| Hash Table but check zero condition|
-| Prefix / Suffix | Maximum Size Subarray Sum Equals k | 325 | [ ] | |
-| Binary search / search patterns | Binary Search | 704 | [ ] | |
+| Prefix / Suffix | Maximum Size Subarray Sum Equals k | 325 | [O] | Premium leetcode|
+| Binary search / search patterns | Binary Search | 704 | [x] Done | |
 | Binary search / search patterns | Search in Rotated Sorted Array | 33 | [ ] | |
-| Two-pointer | Two Sum II - Input array is sorted | 167 | [ ] | |
-| Two-pointer | 3Sum | 15 | [ ] | |
-| Two-pointer | Container With Most Water | 11 | [ ] | |
+| Two-pointer | Two Sum II - Input array is sorted | 167 | [x] Done | O(n) TC O(1) SC|
+| Two-pointer | 3Sum | 15 | [x] Done | |
+| Two-pointer | Container With Most Water | 11 | [x] Done | |
 | Two-pointer | Trapping Rain Water | 42 | [ ] | |
 | Two-pointer | Remove Duplicates from Sorted Array | 26 | [ ] | |
 | Two-pointer | Merge Sorted Array | 88 | [ ] | |
