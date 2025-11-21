@@ -17,10 +17,10 @@
 | Two-pointer | Two Sum II - Input array is sorted | 167 | [x] Done | O(n) TC O(1) SC|
 | Two-pointer | 3Sum | 15 | [x] Done | |
 | Two-pointer | Container With Most Water | 11 | [x] Done | |
-| Two-pointer | Trapping Rain Water | 42 | [ ] | |
-| Two-pointer | Remove Duplicates from Sorted Array | 26 | [ ] | |
+| Two-pointer | Trapping Rain Water | 42 | [x] Done | good for learning see again|
+| Two-pointer | Remove Duplicates from Sorted Array | 26 | [x] Done | |
 | Two-pointer | Merge Sorted Array | 88 | [ ] | |
-| Two-pointer | Valid Palindrome | 125 | [ ] | |
+| Two-pointer | Valid Palindrome | 125 | [x] Done|  |
 
 Week 2 — Graphs (BFS/DFS, topo, Dijkstra, 0-1 BFS, grid BFS) — ~15–20 problems
 - BFS / DFS fundamentals & grid: 200. Number of Islands, 127. Word Ladder, 317. Shortest Distance from All Buildings, 329. Longest Increasing Path in a Matrix
