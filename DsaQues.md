@@ -22,37 +22,83 @@
 | Two-pointer | Merge Sorted Array | 88 | [ ] | |
 | Two-pointer | Valid Palindrome | 125 | [x] Done|  |
 
-Week 2 — Graphs (BFS/DFS, topo, Dijkstra, 0-1 BFS, grid BFS) — ~15–20 problems
-- BFS / DFS fundamentals & grid: 200. Number of Islands, 127. Word Ladder, 317. Shortest Distance from All Buildings, 329. Longest Increasing Path in a Matrix
-- Graph construction / cloning / traversal: 133. Clone Graph, 323. Number of Connected Components in an Undirected Graph, 785. Is Graph Bipartite?
-- Topological sort & cycle detection: 207. Course Schedule, 210. Course Schedule II
-- Shortest path variants: 743. Network Delay Time (Dijkstra), 787. Cheapest Flights Within K Stops (BFS / Bellman-Ford / Dijkstra)
-- 01-matrix / 0-1 BFS style: 542. 01 Matrix
+### Week 2 — Graphs (BFS/DFS, topo, Dijkstra, 0-1 BFS, grid BFS)
 
-Week 3 — DP Basics (20 problems: 1D DP, grid DP, knapsack family, LIS)
-- Simple / 1D: 70. Climbing Stairs, 509. Fibonacci Number, 53. Maximum Subarray, 198. House Robber, 213. House Robber II
-- Grid DP: 62. Unique Paths, 63. Unique Paths II, 64. Minimum Path Sum, 221. Maximal Square
-- Knapsack family / subset-sum: 416. Partition Equal Subset Sum, 322. Coin Change, 494. Target Sum
-- LIS & variants: 300. Longest Increasing Subsequence, 354. Russian Doll Envelopes
-- Other DP classics: 139. Word Break, 91. Decode Ways, 72. Edit Distance, 887. Super Egg Drop, 5. Longest Palindromic Substring
+| Topic | Problem | LC # | Status | Notes |
+|---|---|---:|:---:|---|
+| Grid BFS / islands | Number of Islands | 200 | [ ] | |
+| Shortest path / BFS | Word Ladder | 127 | [ ] | |
+| Grid shortest distances | Shortest Distance from All Buildings | 317 | [ ] | multi-source BFS |
+| Graph DP / DFS | Longest Increasing Path in a Matrix | 329 | [ ] | DFS + memo |
+| Graph clone | Clone Graph | 133 | [ ] | BFS/DFS + map |
+| Connected components | Number of Connected Components in an Undirected Graph | 323 | [ ] | DSU / DFS |
+| Graph coloring | Is Graph Bipartite? | 785 | [ ] | BFS coloring |
+| Topological sort | Course Schedule | 207 | [ ] | detect cycle |
+| Topological + order | Course Schedule II | 210 | [ ] | produce ordering |
+| Shortest path (Dijkstra) | Network Delay Time | 743 | [ ] | Dijkstra |
+| Shortest path variants | Cheapest Flights Within K Stops | 787 | [ ] | BFS / Dijkstra / Bellman-Ford |
+| 0-1 BFS style | 01 Matrix | 542 | [ ] | multi-source BFS |
 
-Week 4 — Advanced Data Structures (~15: segment tree / fenwick / DSU / heaps)
-- Segment tree / BIT / range queries: 307. Range Sum Query - Mutable, 308. Range Sum Query 2D - Mutable, 327. Count of Range Sum
-- Fenwick / order-statistics uses: 315. Count of Smaller Numbers After Self, 327. Count of Range Sum (alt approach)
-- Disjoint Set Union: 721. Accounts Merge, 547. Number of Provinces, 684. Redundant Connection
-- Priority queue / heap practice: 295. Find Median from Data Stream, 480. Sliding Window Median, 973. K Closest Points to Origin, 218. The Skyline Problem
+### Week 3 — DP Basics (1D DP, Grid DP, Knapsack, LIS)
 
-Week 5 — Advanced Graphs (MST, bridges/articulation, Bellman-Ford and variants) — ~15
-- MST / minimum connect: 1584. Min Cost to Connect All Points, 1168/1135-style problems (connectivity / min-cost variants)
-- Bridges / critical connections / graph articulation: 1192. Critical Connections in a Network, 684. Redundant Connection (cycle detection / DSU)
-- Shortest path variants including negative edges: 787. Cheapest Flights Within K Stops (Bellman-Ford style), 743. Network Delay Time
-- Additional graph problems to practice advanced techniques: 310-ish / 400-ish medium-hard graph problems (focus on implementing Tarjan, Kosaraju, Kruskal, Prim)
+| Topic | Problem | LC # | Status | Notes |
+|---|---|---:|:---:|---|
+| 1D DP | Climbing Stairs | 70 | [ ] | simple rec->iter |
+| 1D DP | Fibonacci Number | 509 | [ ] | memo/iter |
+| 1D DP | Maximum Subarray | 53 | [ ] | Kadane |
+| 1D DP | House Robber | 198 | [ ] | DP rolling |
+| 1D DP | House Robber II | 213 | [ ] | circular case |
+| Grid DP | Unique Paths | 62 | [ ] | combinatorics/DP |
+| Grid DP | Unique Paths II | 63 | [ ] | obstacles |
+| Grid DP | Minimum Path Sum | 64 | [ ] | DP |
+| Grid DP | Maximal Square | 221 | [ ] | DP |
+| Knapsack | Partition Equal Subset Sum | 416 | [ ] | subset-sum DP |
+| Knapsack | Coin Change | 322 | [ ] | unbounded knapsack |
+| Knapsack | Target Sum | 494 | [ ] | transform to subset-sum |
+| LIS | Longest Increasing Subsequence | 300 | [ ] | DP / patience |
+| LIS variant | Russian Doll Envelopes | 354 | [ ] | LIS + sort |
+| DP classic | Word Break | 139 | [ ] | DP / trie |
+| DP classic | Decode Ways | 91 | [ ] | DP |
+| DP classic | Edit Distance | 72 | [ ] | 2D DP |
+| DP hard | Super Egg Drop | 887 | [ ] | optimized DP |
+| String DP | Longest Palindromic Substring | 5 | [ ] | expand / DP |
 
-Week 6 — Mixed + Revision (AtCoder DP subset, timed contests, review weaknesses)
-- AtCoder DP subset ≈ translate to LeetCode: practice problems that map to AtCoder DP categories (knapsack, LIS, grid DP, digit DP if available)
-- Mixed LeetCode picks for revision: re-solve previous weeks' hardest 10 problems from memory, plus:
-  - Contest practice: attempt 2 LeetCode Weekly/Biweekly contests per week
-  - Hard problems (choose 1/week): e.g., 214. Shortest Palindrome, 4. Median of Two Sorted Arrays, 297. Serialize and Deserialize Binary Tree (pick 1–2 sustained hard problems)
+### Week 4 — Advanced Data Structures (Segment Tree, Fenwick, DSU, Heaps)
+
+| Topic | Problem | LC # | Status | Notes |
+|---|---|---:|:---:|---|
+| Segment Tree | Range Sum Query - Mutable | 307 | [ ] | segtree/BIT |
+| Segment Tree 2D | Range Sum Query 2D - Mutable | 308 | [ ] | 2D BIT/SegTree |
+| Range sums | Count of Range Sum | 327 | [ ] | divide & conquer / BIT |
+| Fenwick / order-stat | Count of Smaller Numbers After Self | 315 | [ ] | BIT / merge sort |
+| DSU | Accounts Merge | 721 | [ ] | DSU + map |
+| DSU / graph | Number of Provinces | 547 | [ ] | DSU / BFS |
+| DSU / cycle | Redundant Connection | 684 | [ ] | DSU |
+| Heap / median | Find Median from Data Stream | 295 | [ ] | two heaps |
+| Heap / median | Sliding Window Median | 480 | [ ] | balanced heaps |
+| KNN / heap | K Closest Points to Origin | 973 | [ ] | heap / quickselect |
+| Skyline / heap | The Skyline Problem | 218 | [ ] | sweep line + heap |
+
+### Week 5 — Advanced Graphs (MST, Bridges/Articulation, Bellman-Ford)
+
+| Topic | Problem | LC # | Status | Notes |
+|---|---|---:|:---:|---|
+| MST / min connect | Min Cost to Connect All Points | 1584 | [ ] | Kruskal / Prim |
+| Bridges / critical | Critical Connections in a Network | 1192 | [ ] | Tarjan bridges |
+| Cycle / DSU | Redundant Connection | 684 | [ ] | DSU (also in Week 4) |
+| Shortest path (negative edges) | Cheapest Flights Within K Stops | 787 | [ ] | Bellman-Ford style |
+| Shortest path (Dijkstra) | Network Delay Time | 743 | [ ] | Dijkstra |
+| Advanced graph practice | (extra advanced) | — | [ ] | Tarjan / Kosaraju / Prim |
+
+### Week 6 — Mixed + Revision (AtCoder DP subset, contests, review)
+
+| Topic | Problem | LC # | Status | Notes |
+|---|---|---:|:---:|---|
+| AtCoder DP subset | AtCoder DP practice | n/a | [ ] | map problems to LC equivalents |
+| Timed contests | LeetCode Weekly/Biweekly | n/a | [ ] | attempt 2 contests/week |
+| Hard practice | Shortest Palindrome | 214 | [ ] | string algorithms |
+| Hard practice | Median of Two Sorted Arrays | 4 | [ ] | binary search on partitions |
+| Hard practice | Serialize and Deserialize Binary Tree | 297 | [ ] | tree traversal |
 
 Notes & tips
 - Target counts per week: Week1 ≥20, Week2 15–20, Week3 ≈20, Week4 ≈15, Week5 ≈15, Week6 mixed/contests.
