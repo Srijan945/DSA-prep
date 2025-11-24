@@ -27,8 +27,8 @@
 | Topic | Problem | LC # | Status | Practice Link | Important / Revise | Notes |
 |---|---|---:|:---:|---|:---:|---|
 | Grid BFS / islands | Number of Islands | 200 | [X] Done| https://leetcode.com/problems/number-of-islands/ | [Yes] | Use BFS ans DFS both to understand in java|
-| Shortest path / BFS | Word Ladder | 127 | [ ] | https://leetcode.com/problems/word-ladder/ | [ ] | |
-| Grid shortest distances | Shortest Distance from All Buildings | 317 | [ ] | https://leetcode.com/problems/shortest-distance-from-all-buildings/ | [ ] | multi-source BFS |
+| Shortest path / BFS | Word Ladder | 127 | [X] Done | https://leetcode.com/problems/word-ladder/ | [Yes] | For Shortest path use BFS for unweighted graphs, and non-negative weighted graphs k liye dijkstra TC - O(numEle * WordLen * 26) SC- 3*O(numEle*WordLen)  |
+| Grid shortest distances | Shortest Distance from All Buildings | 317 | [] | https://leetcode.com/problems/shortest-distance-from-all-buildings/ | [ ] | <span style="color: lightorange;">multi-source BFS Premium leetcode</span> |
 | Graph DP / DFS | Longest Increasing Path in a Matrix | 329 | [ ] | https://leetcode.com/problems/longest-increasing-path-in-a-matrix/ | [ ] | DFS + memo |
 | Graph clone | Clone Graph | 133 | [ ] | https://leetcode.com/problems/clone-graph/ | [ ] | BFS/DFS + map |
 | Connected components | Number of Connected Components in an Undirected Graph | 323 | [ ] | https://leetcode.com/problems/number-of-connected-components-in-an-undirected-graph/ | [ ] | DSU / DFS |
