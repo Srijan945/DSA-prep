@@ -4,29 +4,29 @@
 
 | Topic | Problem | LC # | Status | Practice Link | Important / Revise | Notes |
 |---|---|---:|:---:|---|:---:|---|
-| Sliding window | Longest Substring Without Repeating Characters | 3 | [x] Done | https://leetcode.com/problems/longest-substring-without-repeating-characters/ | [ ] | revisit O(n) template HashMap |
-| Sliding window | Minimum Window Substring | 76 | [x] Done | https://leetcode.com/problems/minimum-window-substring/ | [ ] | O(n+m) solution Freq Array |
-| Sliding window | Sliding Window Maximum | 239 | [x] Done | https://leetcode.com/problems/sliding-window-maximum/ | [ ] | use deque |
+| Sliding window | Longest Substring Without Repeating Characters | 3 | [x] Done | https://leetcode.com/problems/longest-substring-without-repeating-characters/ | [ ] | revisit O(n) template HashMap remove element from the start to new index |
+| Sliding window | Minimum Window Substring | 76 | [x] Done | https://leetcode.com/problems/minimum-window-substring/ | [Yes] | O(n+m) solution Freq Array |
+| Sliding window | Sliding Window Maximum | 239 | [x] Done | https://leetcode.com/problems/sliding-window-maximum/ | [ ] | use heap |
 | Sliding window | Minimum Size Subarray Sum | 209 | [x] Done | https://leetcode.com/problems/minimum-size-subarray-sum/ | [ ] | two-pointer shrinking window |
 | Sliding window | Subarray Product Less Than K | 713 | [x] Done | https://leetcode.com/problems/subarray-product-less-than-k/ | [ ] | handle product and left pointer |
 | Prefix / Suffix | Product of Array Except Self | 238 | [x] Done | https://leetcode.com/problems/product-of-array-except-self/ | [ ] | Create prefix and suffix product array |
 | Prefix / Suffix | Subarray Sum Equals K | 560 | [x] Done | https://leetcode.com/problems/subarray-sum-equals-k/ | [ ] | Hash Table but check zero condition |
 | Prefix / Suffix | Maximum Size Subarray Sum Equals k | 325 | [O] | https://leetcode.com/problems/maximum-size-subarray-sum-equals-k/ | [ ] | Premium leetcode |
 | Binary search / search patterns | Binary Search | 704 | [x] Done | https://leetcode.com/problems/binary-search/ | [ ] | |
-| Binary search / search patterns | Search in Rotated Sorted Array | 33 | [ ] | https://leetcode.com/problems/search-in-rotated-sorted-array/ | [ ] | |
+| Binary search / search patterns | Search in Rotated Sorted Array | 33 | [ ] | https://leetcode.com/problems/search-in-rotated-sorted-array/ | [YES] | |
 | Two-pointer | Two Sum II - Input array is sorted | 167 | [x] Done | https://leetcode.com/problems/two-sum-ii-input-array-is-sorted/ | [ ] | O(n) TC O(1) SC |
 | Two-pointer | 3Sum | 15 | [x] Done | https://leetcode.com/problems/3sum/ | [ ] | |
 | Two-pointer | Container With Most Water | 11 | [x] Done | https://leetcode.com/problems/container-with-most-water/ | [ ] | |
-| Two-pointer | Trapping Rain Water | 42 | [x] Done | https://leetcode.com/problems/trapping-rain-water/ | [ ] | good for learning see again |
+| Two-pointer | Trapping Rain Water | 42 | [x] Done | https://leetcode.com/problems/trapping-rain-water/ | [YES] | to contain water pillars should be on the both sides leftMax, rightMax and then water+= leftMAx-height[left], rightMax-height[right] |
 | Two-pointer | Remove Duplicates from Sorted Array | 26 | [x] Done | https://leetcode.com/problems/remove-duplicates-from-sorted-array/ | [ ] | |
-| Two-pointer | Merge Sorted Array | 88 | [ ] | https://leetcode.com/problems/merge-sorted-array/ | [ ] | |
+| Two-pointer | Merge Sorted Array | 88 | [x] Done| https://leetcode.com/problems/merge-sorted-array/ | [ ] | |
 | Two-pointer | Valid Palindrome | 125 | [x] Done | https://leetcode.com/problems/valid-palindrome/ | [ ] | |
 
 ### Week 2 — Graphs (BFS/DFS, topo, Dijkstra, 0-1 BFS, grid BFS)
 
 | Topic | Problem | LC # | Status | Practice Link | Important / Revise | Notes |
 |---|---|---:|:---:|---|:---:|---|
-| Grid BFS / islands | Number of Islands | 200 | [ ] | https://leetcode.com/problems/number-of-islands/ | [ ] | |
+| Grid BFS / islands | Number of Islands | 200 | [X] Done| https://leetcode.com/problems/number-of-islands/ | [Yes] | Use BFS ans DFS both to understand in java|
 | Shortest path / BFS | Word Ladder | 127 | [ ] | https://leetcode.com/problems/word-ladder/ | [ ] | |
 | Grid shortest distances | Shortest Distance from All Buildings | 317 | [ ] | https://leetcode.com/problems/shortest-distance-from-all-buildings/ | [ ] | multi-source BFS |
 | Graph DP / DFS | Longest Increasing Path in a Matrix | 329 | [ ] | https://leetcode.com/problems/longest-increasing-path-in-a-matrix/ | [ ] | DFS + memo |
