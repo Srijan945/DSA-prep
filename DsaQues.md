@@ -31,8 +31,8 @@
 | Grid shortest distances | Shortest Distance from All Buildings | 317 | [] | https://leetcode.com/problems/shortest-distance-from-all-buildings/ | [ ] | <span style="color: lightorange;">multi-source BFS Premium leetcode</span> |
 | Graph DP / DFS | Longest Increasing Path in a Matrix | 329 | [ ] | https://leetcode.com/problems/longest-increasing-path-in-a-matrix/ | [ ] | DFS + memo |
 | Graph clone | Clone Graph | 133 | [ ] | https://leetcode.com/problems/clone-graph/ | [ ] | BFS/DFS + map |
-| Connected components | Number of Connected Components in an Undirected Graph | 323 | [ ] | https://leetcode.com/problems/number-of-connected-components-in-an-undirected-graph/ | [ ] | DSU / DFS |
-| Graph coloring | Is Graph Bipartite? | 785 | [ ] | https://leetcode.com/problems/is-graph-bipartite/ | [ ] | BFS coloring |
+| Connected components | Number of Connected Components in an Undirected Graph | 323 | [ ] | https://leetcode.com/problems/number-of-connected-components-in-an-undirected-graph/ | [ ] | DSU / DFS premium leetcode|
+| Graph coloring | Is Graph Bipartite? | 785 | [x] Done | https://leetcode.com/problems/is-graph-bipartite/ | [ ] | BFS coloring / DFS approach |
 | Topological sort | Course Schedule | 207 | [ ] | https://leetcode.com/problems/course-schedule/ | [ ] | detect cycle |
 | Topological + order | Course Schedule II | 210 | [ ] | https://leetcode.com/problems/course-schedule-ii/ | [ ] | produce ordering |
 | Shortest path (Dijkstra) | Network Delay Time | 743 | [ ] | https://leetcode.com/problems/network-delay-time/ | [ ] | Dijkstra |
