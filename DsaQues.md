@@ -33,7 +33,7 @@
 | Graph clone | Clone Graph | 133 | [ ] | https://leetcode.com/problems/clone-graph/ | [ ] | BFS/DFS + map |
 | Connected components | Number of Connected Components in an Undirected Graph | 323 | [ ] | https://leetcode.com/problems/number-of-connected-components-in-an-undirected-graph/ | [ ] | DSU / DFS premium leetcode|
 | Graph coloring | Is Graph Bipartite? | 785 | [x] Done | https://leetcode.com/problems/is-graph-bipartite/ | [ ] | BFS coloring / DFS approach |
-| Topological sort | Course Schedule | 207 | [ ] | https://leetcode.com/problems/course-schedule/ | [ ] | detect cycle |
+| Topological sort | Course Schedule | 207 | [x] Done | https://leetcode.com/problems/course-schedule/ | [Yes] | detect cycle |
 | Topological + order | Course Schedule II | 210 | [ ] | https://leetcode.com/problems/course-schedule-ii/ | [ ] | produce ordering |
 | Shortest path (Dijkstra) | Network Delay Time | 743 | [ ] | https://leetcode.com/problems/network-delay-time/ | [ ] | Dijkstra |
 | Shortest path variants | Cheapest Flights Within K Stops | 787 | [ ] | https://leetcode.com/problems/cheapest-flights-within-k-stops/ | [ ] | BFS / Dijkstra / Bellman-Ford |
