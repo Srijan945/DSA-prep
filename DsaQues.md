@@ -15,12 +15,14 @@
 | Binary search / search patterns | Binary Search | 704 | [x] Done | https://leetcode.com/problems/binary-search/ | [ ] | |
 | Binary search / search patterns | Search in Rotated Sorted Array | 33 | [ ] | https://leetcode.com/problems/search-in-rotated-sorted-array/ | [YES] | |
 | Two-pointer | Two Sum II - Input array is sorted | 167 | [x] Done | https://leetcode.com/problems/two-sum-ii-input-array-is-sorted/ | [ ] | O(n) TC O(1) SC |
-| Two-pointer | 3Sum | 15 | [x] Done | https://leetcode.com/problems/3sum/ | [ ] | |
+| Two-pointer | 3Sum | 15 | [x] Done | https://leetcode.com/problems/3sum/ | [ Yes] | HashMap solution is not optimal in terms of space complexity so this one is better |
 | Two-pointer | Container With Most Water | 11 | [x] Done | https://leetcode.com/problems/container-with-most-water/ | [ ] | |
 | Two-pointer | Trapping Rain Water | 42 | [x] Done | https://leetcode.com/problems/trapping-rain-water/ | [YES] | to contain water pillars should be on the both sides leftMax, rightMax and then water+= leftMAx-height[left], rightMax-height[right] |
 | Two-pointer | Remove Duplicates from Sorted Array | 26 | [x] Done | https://leetcode.com/problems/remove-duplicates-from-sorted-array/ | [ ] | |
 | Two-pointer | Merge Sorted Array | 88 | [x] Done| https://leetcode.com/problems/merge-sorted-array/ | [ ] | |
 | Two-pointer | Valid Palindrome | 125 | [x] Done | https://leetcode.com/problems/valid-palindrome/ | [ ] | |
+
+#Notes -> Whenever subArray, substring related ques think about Sliding window approach
 
 ### Week 2 — Graphs (BFS/DFS, topo, Dijkstra, 0-1 BFS, grid BFS)
 
