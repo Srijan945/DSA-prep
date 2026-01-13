@@ -39,7 +39,7 @@
 | Topological + order | Course Schedule II | 210 | [ ] | https://leetcode.com/problems/course-schedule-ii/ | [ ] | produce ordering |
 | Shortest path (Dijkstra) | Network Delay Time | 743 | [ ] | https://leetcode.com/problems/network-delay-time/ | [ ] | Dijkstra |
 | Shortest path variants | Cheapest Flights Within K Stops | 787 | [ ] | https://leetcode.com/problems/cheapest-flights-within-k-stops/ | [ ] | BFS / Dijkstra / Bellman-Ford |
-| 0-1 BFS style | 01 Matrix | 542 | [ ] | https://leetcode.com/problems/01-matrix/ | [ ] | multi-source BFS |
+| 0-1 BFS style | 01 Matrix | 542 | [x] Done | https://leetcode.com/problems/01-matrix/ | [Yes] | multi-source BFS |
 
 ### Week 3 — DP Basics (1D DP, Grid DP, Knapsack, LIS)
 
