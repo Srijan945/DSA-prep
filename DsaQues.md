@@ -36,10 +36,10 @@
 | Connected components | Number of Connected Components in an Undirected Graph | 323 | [ ] | https://leetcode.com/problems/number-of-connected-components-in-an-undirected-graph/ | [ ] | DSU / DFS premium leetcode|
 | Graph coloring | Is Graph Bipartite? | 785 | [x] Done | https://leetcode.com/problems/is-graph-bipartite/ | [ ] | BFS coloring / DFS approach |
 | Topological sort | Course Schedule | 207 | [x] Done | https://leetcode.com/problems/course-schedule/ | [Yes] | detect cycle |
-| Topological + order | Course Schedule II | 210 | [ ] | https://leetcode.com/problems/course-schedule-ii/ | [ ] | produce ordering |
+| Topological + order | Course Schedule II | 210 | [x] Done | https://leetcode.com/problems/course-schedule-ii/ | [ ] | produce ordering |
 | Shortest path (Dijkstra) | Network Delay Time | 743 | [ ] | https://leetcode.com/problems/network-delay-time/ | [ ] | Dijkstra |
 | Shortest path variants | Cheapest Flights Within K Stops | 787 | [ ] | https://leetcode.com/problems/cheapest-flights-within-k-stops/ | [ ] | BFS / Dijkstra / Bellman-Ford |
-| 0-1 BFS style | 01 Matrix | 542 | [x] Done | https://leetcode.com/problems/01-matrix/ | [Yes] | multi-source BFS |
+| 0-1 BFS style | 01 Matrix | 542 | [x] Done | https://leetcode.com/problems/01-matrix/ | [Yes] | multi-source BFS good thing to learn dir array 0 1 0 -1 0  and make unprocessed node as -1 and while processing their count to postive value|
 
 ### Week 3 — DP Basics (1D DP, Grid DP, Knapsack, LIS)
 
