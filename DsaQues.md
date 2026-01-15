@@ -22,7 +22,7 @@
 | Two-pointer | Merge Sorted Array | 88 | [x] Done| https://leetcode.com/problems/merge-sorted-array/ | [ ] | |
 | Two-pointer | Valid Palindrome | 125 | [x] Done | https://leetcode.com/problems/valid-palindrome/ | [ ] | |
 
-#Notes -> Whenever subArray, substring related ques think about Sliding window approach
+<span style="color: orange;"> #Notes -> Whenever subArray, substring related ques think about Sliding window approach </span>
 
 ### Week 2 — Graphs (BFS/DFS, topo, Dijkstra, 0-1 BFS, grid BFS)
 
@@ -30,7 +30,7 @@
 |---|---|---:|:---:|---|:---:|---|
 | Grid BFS / islands | Number of Islands | 200 | [X] Done| https://leetcode.com/problems/number-of-islands/ | [Yes] | Use BFS ans DFS both to understand in java|
 | Shortest path / BFS | Word Ladder | 127 | [X] Done | https://leetcode.com/problems/word-ladder/ | [Yes] | For Shortest path use BFS for unweighted graphs, and non-negative weighted graphs k liye dijkstra TC - O(numEle * WordLen * 26) SC- 3*O(numEle*WordLen)  |
-| Grid shortest distances | Shortest Distance from All Buildings | 317 | [] | https://leetcode.com/problems/shortest-distance-from-all-buildings/ | [ ] | <span style="color: lightorange;">multi-source BFS Premium leetcode</span> |
+| Grid shortest distances | Shortest Distance from All Buildings | 317 | [] | https://leetcode.com/problems/shortest-distance-from-all-buildings/ | [ ] | <span style="color: orange;">multi-source BFS Premium leetcode</span> |
 | Graph DP / DFS | Longest Increasing Path in a Matrix | 329 | [ ] | https://leetcode.com/problems/longest-increasing-path-in-a-matrix/ | [ ] | DFS + memo |
 | Graph clone | Clone Graph | 133 | [ ] | https://leetcode.com/problems/clone-graph/ | [ ] | BFS/DFS + map |
 | Connected components | Number of Connected Components in an Undirected Graph | 323 | [ ] | https://leetcode.com/problems/number-of-connected-components-in-an-undirected-graph/ | [ ] | DSU / DFS premium leetcode|
@@ -39,7 +39,7 @@
 | Topological + order | Course Schedule II | 210 | [x] Done | https://leetcode.com/problems/course-schedule-ii/ | [ ] | produce ordering |
 | Shortest path (Dijkstra) | Network Delay Time | 743 | [ ] | https://leetcode.com/problems/network-delay-time/ | [ ] | Dijkstra |
 | Shortest path variants | Cheapest Flights Within K Stops | 787 | [ ] | https://leetcode.com/problems/cheapest-flights-within-k-stops/ | [ ] | BFS / Dijkstra / Bellman-Ford |
-| 0-1 BFS style | 01 Matrix | 542 | [x] Done | https://leetcode.com/problems/01-matrix/ | [Yes] | multi-source BFS good thing to learn dir array 0 1 0 -1 0  and make unprocessed node as -1 and while processing their count to postive value|
+| 0-1 BFS style (Multi-source BFS) | 01 Matrix | 542 | [x] Done | https://leetcode.com/problems/01-matrix/ | [Yes] | multi-source BFS good thing to learn dir array 0 1 0 -1 0  and make unprocessed node as -1 and while processing their count to postive value|
 
 ### Week 3 — DP Basics (1D DP, Grid DP, Knapsack, LIS)
 
