@@ -1,5 +1,8 @@
 ## LeetCode practice — Questions mapped to the 6-week plan
 
+### <span style="color: orange;"> Give only 10 min to think and understand a ques and then solve it or learn from the solutions </span>
+
+
 ### Week 1 — Foundations + Patterns (pick 20; focus on templates & from-memory coding)
 
 | Topic | Problem | LC # | Status | Practice Link | Important / Revise | Notes |
@@ -22,7 +25,7 @@
 | Two-pointer | Merge Sorted Array | 88 | [x] Done| https://leetcode.com/problems/merge-sorted-array/ | [ ] | |
 | Two-pointer | Valid Palindrome | 125 | [x] Done | https://leetcode.com/problems/valid-palindrome/ | [ ] | |
 
-<span style="color: orange;"> #Notes -> Whenever subArray, substring related ques think about Sliding window approach </span>
+<span style="color: orange;"> Note - Whenever subArray, substring related ques think about Sliding window approach </span>
 
 ### Week 2 — Graphs (BFS/DFS, topo, Dijkstra, 0-1 BFS, grid BFS)
 
@@ -31,7 +34,7 @@
 | Grid BFS / islands | Number of Islands | 200 | [X] Done| https://leetcode.com/problems/number-of-islands/ | [Yes] | Use BFS ans DFS both to understand in java|
 | Shortest path / BFS | Word Ladder | 127 | [X] Done | https://leetcode.com/problems/word-ladder/ | [Yes] | For Shortest path use BFS for unweighted graphs, and non-negative weighted graphs k liye dijkstra TC - O(numEle * WordLen * 26) SC- 3*O(numEle*WordLen)  |
 | Grid shortest distances | Shortest Distance from All Buildings | 317 | [] | https://leetcode.com/problems/shortest-distance-from-all-buildings/ | [ ] | <span style="color: orange;">multi-source BFS Premium leetcode</span> |
-| Graph DP / DFS | Longest Increasing Path in a Matrix | 329 | [ ] | https://leetcode.com/problems/longest-increasing-path-in-a-matrix/ | [ ] | DFS + memo |
+| Graph DP / DFS | Longest Increasing Path in a Matrix | 329 | [x] Done | https://leetcode.com/problems/longest-increasing-path-in-a-matrix/ | [Yes] | DFS + memo (DFS runs once for an element it already evaluated the longest for it so memoize it.) |
 | Graph clone | Clone Graph | 133 | [ ] | https://leetcode.com/problems/clone-graph/ | [ ] | BFS/DFS + map |
 | Connected components | Number of Connected Components in an Undirected Graph | 323 | [ ] | https://leetcode.com/problems/number-of-connected-components-in-an-undirected-graph/ | [ ] | DSU / DFS premium leetcode|
 | Graph coloring | Is Graph Bipartite? | 785 | [x] Done | https://leetcode.com/problems/is-graph-bipartite/ | [ ] | BFS coloring / DFS approach |
