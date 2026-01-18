@@ -113,3 +113,20 @@ public class TopologicalSortDFS {
 - Kahn's algorithm (BFS-based using indegrees) is an alternative that is iterative and can detect cycles by counting processed vertices.
 - Choose DFS when recursive postorder is natural; choose Kahn's when you need an explicit indegree-driven sequence or want to avoid recursion.
 
+## LeetCode problems using Topological Sort (5 picks)
+
+1. 207. Course Schedule  
+   - Use-case: detect if prerequisites contain a cycle. Solve by Kahn's algorithm (BFS with indegrees) or DFS cycle detection.
+
+2. 210. Course Schedule II  
+   - Use-case: return a valid ordering of courses (topological order). Use Kahn's algorithm or DFS postorder.
+
+3. 269. Alien Dictionary  
+   - Use-case: derive character ordering from sorted words. Build directed graph of precedence and run topo sort; detect cycles for invalid cases.
+
+4. 444. Sequence Reconstruction  
+   - Use-case: determine if the original sequence is the unique topological ordering given subsequences. Use indegree-based topo and check uniqueness at each step.
+
+5. 1203. Sort Items by Groups Respecting Dependencies  
+   - Use-case: two-level topological sort (items with group constraints). Perform topo on groups then topo within groups (or transform into single graph with group-nodes), detect cycles and produce combined ordering.
+
