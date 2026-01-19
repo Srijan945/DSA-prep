@@ -49,11 +49,11 @@ Topological Sort | Find recipes | 2115 | [x] Done | https://leetcode.com/problem
 
 | Topic | Problem | LC # | Status | Practice Link | Important / Revise | Notes |
 |---|---|---:|:---:|---|:---:|---|
-| 1D DP | Climbing Stairs | 70 | [ ] | https://leetcode.com/problems/climbing-stairs/ | [ ] | simple rec->iter |
-| 1D DP | Fibonacci Number | 509 | [ ] | https://leetcode.com/problems/fibonacci-number/ | [ ] | memo/iter |
-| 1D DP | Maximum Subarray | 53 | [ ] | https://leetcode.com/problems/maximum-subarray/ | [ ] | Kadane |
-| 1D DP | House Robber | 198 | [ ] | https://leetcode.com/problems/house-robber/ | [ ] | DP rolling |
-| 1D DP | House Robber II | 213 | [ ] | https://leetcode.com/problems/house-robber-ii/ | [ ] | circular case |
+| 1D DP | Climbing Stairs | 70 | [x] Done | https://leetcode.com/problems/climbing-stairs/ | [ ] | simple rec->iter |
+| 1D DP | Fibonacci Number | 509 | [x] Done | https://leetcode.com/problems/fibonacci-number/ | [ ] | memo/iter |
+| 1D DP | Maximum Subarray | 53 | [x] Done | https://leetcode.com/problems/maximum-subarray/ | [see divide and conquer one] | Kadane |
+| 1D DP | House Robber | 198 | [x] Done | https://leetcode.com/problems/house-robber/ | [ ] | DP rolling |
+| 1D DP | House Robber II | 213 | [x] Done | https://leetcode.com/problems/house-robber-ii/ | [Yes] | circular case |
 | Grid DP | Unique Paths | 62 | [ ] | https://leetcode.com/problems/unique-paths/ | [ ] | combinatorics/DP |
 | Grid DP | Unique Paths II | 63 | [ ] | https://leetcode.com/problems/unique-paths-ii/ | [ ] | obstacles |
 | Grid DP | Minimum Path Sum | 64 | [ ] | https://leetcode.com/problems/minimum-path-sum/ | [ ] | DP |

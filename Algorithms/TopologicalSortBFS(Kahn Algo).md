@@ -1,4 +1,4 @@
-# KHAN's Algorithm
+# KAHN's Algorithm
 
 ### Kahn's Algorithm is a Breadth-First Search (BFS) based method for topological sorting a Directed Acyclic Graph (DAG). It works by iteratively finding and removing nodes with zero in-degree (no incoming edges)
 
