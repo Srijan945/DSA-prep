@@ -42,7 +42,7 @@
 | Topological + order | Course Schedule II | 210 | [x] Done | https://leetcode.com/problems/course-schedule-ii/ | [ ] | produce ordering |
 Topological Sort | Find recipes | 2115 | [x] Done | https://leetcode.com/problems/find-all-possible-recipes-from-given-supplies/description/ | [] | Topological Sort / DFS + memo (most optimal) |
 | Shortest path (Dijkstra) | Network Delay Time | 743 | [x] Done | https://leetcode.com/problems/network-delay-time/ | [Yes] | Dijkstra Complexity is ELogV using priorityQueue |
-| Shortest path variants | Cheapest Flights Within K Stops | 787 | [ ] | https://leetcode.com/problems/cheapest-flights-within-k-stops/ | [ ] | BFS / Dijkstra / Bellman-Ford |
+| Shortest path variants | <span style="color: orange;"> Cheapest Flights Within K Stops </span> | 787 | [x] Done | https://leetcode.com/problems/cheapest-flights-within-k-stops/ | [Yes Must] | BFS / Dijkstra / Bellman-Ford  See it again majorly dijkstra and bellman ford also the complexities|
 | 0-1 BFS style (Multi-source BFS) | 01 Matrix | 542 | [x] Done | https://leetcode.com/problems/01-matrix/ | [Yes] | multi-source BFS good thing to learn dir array 0 1 0 -1 0  and make unprocessed node as -1 and while processing their count to postive value|
 
 ### Week 3 — DP Basics (1D DP, Grid DP, Knapsack, LIS)
