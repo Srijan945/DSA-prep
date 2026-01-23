@@ -54,8 +54,8 @@ Topological Sort | Find recipes | 2115 | [x] Done | https://leetcode.com/problem
 | 1D DP | Maximum Subarray | 53 | [x] Done | https://leetcode.com/problems/maximum-subarray/ | [see divide and conquer one] | Kadane |
 | 1D DP | House Robber | 198 | [x] Done | https://leetcode.com/problems/house-robber/ | [ ] | DP rolling |
 | 1D DP | House Robber II | 213 | [x] Done | https://leetcode.com/problems/house-robber-ii/ | [Yes] | circular case |
-| Grid DP | Unique Paths | 62 | [ ] | https://leetcode.com/problems/unique-paths/ | [ ] | combinatorics/DP |
-| Grid DP | Unique Paths II | 63 | [ ] | https://leetcode.com/problems/unique-paths-ii/ | [ ] | obstacles |
+| Grid DP | Unique Paths | 62 | [x] Done | https://leetcode.com/problems/unique-paths/ | [ ] | combinatorics/DP |
+| Grid DP | Unique Paths II | 63 | [x] Done | https://leetcode.com/problems/unique-paths-ii/ | [Yes] | obstacles bottom-up and top-down try both |
 | Grid DP | Minimum Path Sum | 64 | [ ] | https://leetcode.com/problems/minimum-path-sum/ | [ ] | DP |
 | Grid DP | Maximal Square | 221 | [ ] | https://leetcode.com/problems/maximal-square/ | [ ] | DP |
 | Knapsack | Partition Equal Subset Sum | 416 | [ ] | https://leetcode.com/problems/partition-equal-subset-sum/ | [ ] | subset-sum DP |
