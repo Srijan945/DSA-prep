@@ -25,7 +25,7 @@
 | Two-pointer | Merge Sorted Array | 88 | [x] Done| https://leetcode.com/problems/merge-sorted-array/ | [ ] | |
 | Two-pointer | Valid Palindrome | 125 | [x] Done | https://leetcode.com/problems/valid-palindrome/ | [ ] | |
 
-<span style="color: orange;"> Note - Whenever subArray, substring related ques think about Sliding window approach </span>
+<span style="color: orange;"> Note - Whenever subArray, substring related ques think about Sliding window approach. Also whenever about array think about sliding window, suffix/prefix, two pointer, binary search if sorted </span>
 
 ### Week 2 — Graphs (BFS/DFS, topo, Dijkstra, 0-1 BFS, grid BFS)
 
@@ -57,7 +57,7 @@ Topological Sort | Find recipes | 2115 | [x] Done | https://leetcode.com/problem
 | Grid DP | Unique Paths | 62 | [x] Done | https://leetcode.com/problems/unique-paths/ | [ ] | combinatorics/DP |
 | Grid DP | Unique Paths II | 63 | [x] Done | https://leetcode.com/problems/unique-paths-ii/ | [Yes] | obstacles bottom-up and top-down try both |
 | Grid DP | Minimum Path Sum | 64 | [x] Done | https://leetcode.com/problems/minimum-path-sum/ | [ ] | DP |
-| Grid DP | Maximal Square | 221 | [ ] | https://leetcode.com/problems/maximal-square/ | [ ] | DP |
+| Grid DP | Maximal Square | 221 | [x] Done | https://leetcode.com/problems/maximal-square/ | [ ] | DP |
 | Knapsack | Partition Equal Subset Sum | 416 | [ ] | https://leetcode.com/problems/partition-equal-subset-sum/ | [ ] | subset-sum DP |
 | Knapsack | Coin Change | 322 | [ ] | https://leetcode.com/problems/coin-change/ | [ ] | unbounded knapsack |
 | Knapsack | Target Sum | 494 | [ ] | https://leetcode.com/problems/target-sum/ | [ ] | transform to subset-sum |
