@@ -58,7 +58,7 @@ Topological Sort | Find recipes | 2115 | [x] Done | https://leetcode.com/problem
 | Grid DP | Unique Paths II | 63 | [x] Done | https://leetcode.com/problems/unique-paths-ii/ | [Yes] | obstacles bottom-up and top-down try both |
 | Grid DP | Minimum Path Sum | 64 | [x] Done | https://leetcode.com/problems/minimum-path-sum/ | [ ] | DP |
 | Grid DP | Maximal Square | 221 | [x] Done | https://leetcode.com/problems/maximal-square/ | [ ] | DP |
-| Knapsack | Partition Equal Subset Sum | 416 | [ ] | https://leetcode.com/problems/partition-equal-subset-sum/ | [ ] | subset-sum DP |
+| Knapsack | Partition Equal Subset Sum | 416 | [x] Done | https://leetcode.com/problems/partition-equal-subset-sum/ | [Yes] | subset-sum DP equivalent to 0-1 knapsack  (check the space optimzed approach as well)|
 | Knapsack | Coin Change | 322 | [ ] | https://leetcode.com/problems/coin-change/ | [ ] | unbounded knapsack |
 | Knapsack | Target Sum | 494 | [ ] | https://leetcode.com/problems/target-sum/ | [ ] | transform to subset-sum |
 | LIS | Longest Increasing Subsequence | 300 | [ ] | https://leetcode.com/problems/longest-increasing-subsequence/ | [ ] | DP / patience |
@@ -68,6 +68,9 @@ Topological Sort | Find recipes | 2115 | [x] Done | https://leetcode.com/problem
 | DP classic | Edit Distance | 72 | [ ] | https://leetcode.com/problems/edit-distance/ | [ ] | 2D DP |
 | DP hard | Super Egg Drop | 887 | [ ] | https://leetcode.com/problems/super-egg-drop/ | [ ] | optimized DP |
 | String DP | Longest Palindromic Substring | 5 | [ ] | https://leetcode.com/problems/longest-palindromic-substring/ | [ ] | expand / DP |
+
+
+<span style="color: orange;"> Note -  When we have many ways to do something and find minimum(or maximum) number of something, there is a possibility that the question can be solved by Dynamic Programming. </span>
 
 ### Week 4 — Advanced Data Structures (Segment Tree, Fenwick, DSU, Heaps)
 
