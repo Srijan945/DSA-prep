@@ -58,8 +58,8 @@ Topological Sort | Find recipes | 2115 | [x] Done | https://leetcode.com/problem
 | Grid DP | Unique Paths II | 63 | [x] Done | https://leetcode.com/problems/unique-paths-ii/ | [Yes] | obstacles bottom-up and top-down try both |
 | Grid DP | Minimum Path Sum | 64 | [x] Done | https://leetcode.com/problems/minimum-path-sum/ | [ ] | DP |
 | Grid DP | Maximal Square | 221 | [x] Done | https://leetcode.com/problems/maximal-square/ | [ ] | DP |
-| Knapsack | Partition Equal Subset Sum | 416 | [x] Done | https://leetcode.com/problems/partition-equal-subset-sum/ | [Yes] | subset-sum DP equivalent to 0-1 knapsack  (check the space optimzed approach as well)|
-| Knapsack | Coin Change | 322 | [ ] | https://leetcode.com/problems/coin-change/ | [ ] | unbounded knapsack |
+| Knapsack | Equal Subset Sum | 416 | [x] Done | https://leetcode.com/problems/partition-equal-subset-sum/ | [Yes] | subset-sum DP equivalent to 0-1 knapsack  (check the space optimzed approach as well)|
+| Knapsack | Coin Change | 322 | [x] Done | https://leetcode.com/problems/coin-change/ | [ ] | unbounded knapsack |
 | Knapsack | Target Sum | 494 | [ ] | https://leetcode.com/problems/target-sum/ | [ ] | transform to subset-sum |
 | LIS | Longest Increasing Subsequence | 300 | [ ] | https://leetcode.com/problems/longest-increasing-subsequence/ | [ ] | DP / patience |
 | LIS variant | Russian Doll Envelopes | 354 | [ ] | https://leetcode.com/problems/russian-doll-envelopes/ | [ ] | LIS + sort |
