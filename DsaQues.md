@@ -67,7 +67,7 @@ Topological Sort | Find recipes | 2115 | [x] Done | https://leetcode.com/problem
 | DP classic | Decode Ways | 91 | [ ] | https://leetcode.com/problems/decode-ways/ | [ ] | DP |
 | DP classic | Edit Distance | 72 | [ ] | https://leetcode.com/problems/edit-distance/ | [ ] | 2D DP |
 | DP hard | Super Egg Drop | 887 | [ ] | https://leetcode.com/problems/super-egg-drop/ | [ ] | optimized DP |
-| String DP | Longest Palindromic Substring | 5 | [ ] | https://leetcode.com/problems/longest-palindromic-substring/ | [ ] | expand / DP |
+| String DP | Longest Palindromic Substring | 5 | [x] Done | https://leetcode.com/problems/longest-palindromic-substring/ | [ ] | expand / DP DO it via DP and manacher's algortihm |
 
 
 <span style="color: orange;"> Note -  When we have many ways to do something and find minimum(or maximum) number of something, there is a possibility that the question can be solved by Dynamic Programming. </span>
